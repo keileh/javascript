@@ -6,4 +6,5 @@ module.exports = {
     '^.+\\.js$': 'babel-jest',
     '^.+\\.html$': './scripts/jest-html-transformer.js',
   },
+    "testEnvironment": "jsdom",
 };
