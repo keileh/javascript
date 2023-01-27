@@ -66,7 +66,7 @@ function upperProps(obj) {
 
   for (const name in obj) {
     props.push(name.toUpperCase());
-  }
+  };
 
   return props;
 }
